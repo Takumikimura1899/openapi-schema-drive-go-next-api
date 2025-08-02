@@ -1,0 +1,10 @@
+output-options:
+  skip-prune: true
+
+generate:
+  models: true
+  server: true
+  embedded-spec: true
+
+output: generated/api.go
+package: generated
